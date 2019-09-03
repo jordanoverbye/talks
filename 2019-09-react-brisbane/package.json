@@ -1,0 +1,24 @@
+{
+  "name": "react-brisbane-2019-september",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bolt": {
+    "workspaces": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "start:deck": "bolt w deck start",
+    "fresh": "yarn clean && bolt",
+    "clean": "bolt ws exec -- rm -rf node_modules && rm -rf node_modules"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.14",
+    "mdx-deck": "^2.4.0",
+    "next": "^9.0.0",
+    "next-images": "^1.1.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}

@@ -1,0 +1,31 @@
+$font-family: 'system-ui', sans-serif;
+$font-family-mono: 'courier-new', monospace;
+
+$border-radius: 4px;
+
+$modes: (
+  light: (
+    text: #000,
+    background: #fff,
+    highlight: hotpink,
+    card: #fff
+  ),
+  dark: (
+    text: #eee,
+    background: #111,
+    highlight: aqua,
+    card: #424242
+  ),
+  bright: (
+    text: #000,
+    background: yellow,
+    highlight: blue,
+    card: #fff
+  ),
+  dracula: (
+    text: #fff,
+    background: #282a36,
+    highlight: #44fb75,
+    card: #1c1e27
+  )
+);
