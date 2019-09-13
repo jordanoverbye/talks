@@ -18,14 +18,14 @@ export const themes = [
         fontSize: '32px'
       },
       '@media screen and (min-width:64em)': {
-        fontSize: '40px'
+        fontSize: '32px'
       }
     },
     heading: {
       fontWeight: 'bold'
     },
     h1: {
-      fontSize: '1.75em'
+      fontSize: '4rem'
     },
     ul: {
       listStyle: 'none',

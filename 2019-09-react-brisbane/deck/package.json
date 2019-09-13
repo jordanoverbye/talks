@@ -5,6 +5,6 @@
     "start": "mdx-deck deck.mdx"
   },
   "dependencies": {
-    "mdx-deck": "^2.4.0"
+    "mdx-deck": "2.4.0"
   }
 }
