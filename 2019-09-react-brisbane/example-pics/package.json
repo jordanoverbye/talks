@@ -1,0 +1,43 @@
+{
+  "name": "@keystone-alpha/example-projects-starter",
+  "description": "An example KeystoneJS project with a User list and Authentication.",
+  "private": true,
+  "version": "1.1.6",
+  "author": "The KeystoneJS Development Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.4.0"
+  },
+  "scripts": {
+    "dev": "PORT=2000 cross-env NODE_ENV=development DISABLE_LOGGING=true keystone dev",
+    "build": "cross-env NODE_ENV=production keystone build",
+    "start": "PORT=2000 cross-env NODE_ENV=production keystone start"
+  },
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.0",
+    "@apollo/react-ssr": "^3.1.0",
+    "@emotion/core": "^10.0.17",
+    "@keystone-alpha/adapter-mongoose": "^4.0.0",
+    "@keystone-alpha/app-admin-ui": "^5.2.0",
+    "@keystone-alpha/app-graphql": "^6.3.1",
+    "@keystone-alpha/app-next": "^2.0.0",
+    "@keystone-alpha/auth-password": "^1.0.1",
+    "@keystone-alpha/fields": "^10.2.0",
+    "@keystone-alpha/file-adapters": "^1.1.1",
+    "@keystone-alpha/keystone": "^10.3.0",
+    "@mdx-js/react": "^1.4.5",
+    "apollo-cache-inmemory": "^1.6.3",
+    "apollo-client": "^2.6.4",
+    "apollo-link-http": "^1.5.16",
+    "cross-env": "^5.2.0",
+    "graphql": "^14.5.4",
+    "graphql-tag": "^2.10.1",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.0.5",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-lazyload": "^2.6.2",
+    "theme-ui": "^0.2.42"
+  }
+}
